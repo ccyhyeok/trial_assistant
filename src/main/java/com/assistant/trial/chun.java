@@ -4,14 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ChunController {
+public class chun {
 
 	@GetMapping("/chun1")
 	public String chun1() {
 		
 		return "helper_input/helper_input_indiv";
 	}
-
 	
 	@GetMapping("/chun2")
 	public String chun2() {
@@ -19,12 +18,4 @@ public class ChunController {
 		return "helper_input/helper_input_com_lookup";
 	}
 	
-
-	
-	@GetMapping("/chun1")
-	public String chun3() {
-		
-		return "helper_input/helper_input_indiv";
-	}
-
 }
