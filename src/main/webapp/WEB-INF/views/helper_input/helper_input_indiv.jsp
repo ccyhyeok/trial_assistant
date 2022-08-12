@@ -119,6 +119,9 @@
         <button id="submit">신청</button>
 
     </section>
+    
+	<%@ include file="../include/footer.jsp"%>
+
 
 </body>
 
